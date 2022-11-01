@@ -1,0 +1,41 @@
+:root{
+    --rubik: 'Rubik', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+
+    --white: #ffffff;
+    --light: #f8f9fa;
+    --gray: #6c757d;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --dark: #343a40; 
+}
+
+header{
+    margin: 0 200px;
+}
+
+.container_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_header{
+    width: 200px;
+    margin-top: 20px;
+}
+
+header nav{
+    display: flex;
+}
+
+.menuItems{
+    text-align: center;
+    margin: 20px 15px;
+    font-size: 14px;
+    font-family: var(--rubik);
+    font-weight:500;
+    text-decoration: none;
+    color: var(--dark);
+}
+
