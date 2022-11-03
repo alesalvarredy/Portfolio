@@ -15,6 +15,7 @@ body{
 /* header */
 header{
     margin: 0 10%;
+    height: 10vh;
 }
 
 .container_header{
@@ -25,7 +26,7 @@ header{
 
 .logo_header{
     width: 200px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 header nav{
@@ -34,7 +35,7 @@ header nav{
 
 .menuItems{
     text-align: center;
-    margin: 20px 15px;
+    margin: 25px 15px;
     font-size: 15px;
     font-family: var(--rubik);
     font-weight:500;
@@ -45,8 +46,7 @@ header nav{
 /* principal */
 
 .principal{
-    width: 100vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -72,7 +72,6 @@ header nav{
 
 .title_one{
     font-size: 45px;
-    text-align: center;
     margin-bottom: 30px;
     font-weight: 600;
     color: var(--dark);
@@ -80,7 +79,6 @@ header nav{
 
 .title_five{
     font-size: 30px;
-    text-align: center;
     margin-bottom: 50px;
     font-weight: 400;
     color: var(--gray);
@@ -88,7 +86,6 @@ header nav{
 
 .principal_one_buttons{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -97,22 +94,37 @@ header nav{
     width: 30%;
     margin-right: 30px;
     font-size: 16px;
-    font-weight: 700;
-    color: var(--gray);
+    font-weight: 600;
+    color: var(--light);
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+    border: double 2px transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.contact_me_button:hover{
+    background-image: var(--light);
+    border: solid 2px var(--indigo);
+    color: var(--dark);
 }
 
 .download_button{
     padding: 15px;
     width: 30%;
     font-size: 16px;
-    font-weight: 700;
-    color: var(--gray);
+    font-weight: 600;
+    color: var(--dark);
+    border-radius: 5px;
+    border-style: solid;
+    border-color:var(--purple);
 }
 
 .principal_two{
+    display: flex;
 }
 
 .image_hero{
-    width: 700px;
+    width: 550px;
 }
 
