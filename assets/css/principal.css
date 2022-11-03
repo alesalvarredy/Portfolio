@@ -35,11 +35,11 @@ header nav{
 .menuItems{
     text-align: center;
     margin: 20px 15px;
-    font-size: 14px;
+    font-size: 15px;
     font-family: var(--rubik);
     font-weight:500;
     text-decoration: none;
-    color: var(--dark);
+    color: var(--gray);
 }
 
 /* principal */
@@ -55,37 +55,64 @@ header nav{
 
 .principal_one{
     display: flex;
+    flex-direction: column;
 
+}
+
+.principal_one_titles{
+    font-family: var(--rubik);
 }
 
 .title_three{
-    font-family: var(--roboto);
-    font-size: 40px;
-    text-align: center;
+    font-size: 38px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    color: var(--dark);
 }
 
 .title_one{
-    font-size: 50px;
-    font-family: var(--roboto);
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: var(--dark);
 }
 
 .title_five{
-    font-size: 40px;
-    font-family: var(--roboto);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 400;
+    color: var(--gray);
+}
+
+.principal_one_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact_me_button{
-    
+    padding: 15px;
+    width: 30%;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--gray);
 }
 
-.dawnload_button{
-
+.download_button{
+    padding: 15px;
+    width: 30%;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--gray);
 }
 
 .principal_two{
 }
 
 .image_hero{
-    width: 600px;
+    width: 700px;
 }
 
