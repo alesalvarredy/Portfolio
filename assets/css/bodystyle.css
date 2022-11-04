@@ -1,0 +1,19 @@
+:root{
+    --rubik: 'Rubik', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --white: #ffffff;
+    --light: #f8f9fa;
+    --gray: #6c757d;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --dark: #343a40; 
+}
+
+body{
+
+    font-size: 16px;
+    font-family: var(--roboto);
+    color: var(--dark);
+    font-weight: 400;
+    
+}

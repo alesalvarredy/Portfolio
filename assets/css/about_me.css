@@ -1,0 +1,44 @@
+:root{
+    --rubik: 'Rubik', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --white: #ffffff;
+    --light: #f8f9fa;
+    --gray: #6c757d;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --dark: #343a40; 
+}
+
+.about_me{
+    display: flex;
+}
+
+.about_me-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.about_me-one{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about_me-img{
+    width: 400px;
+}
+
+.about_me-two{
+    width: 60%;
+}
+
+.about_me-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.about_me-paragraph{
+
+}
