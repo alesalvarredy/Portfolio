@@ -6,7 +6,7 @@
     --gray: #6c757d;
     --indigo: #6610f2;
     --purple: #6f42c1;
-    --dark: #343a40; 
+    --dark: #777777; 
 }
 
 body{
@@ -15,5 +15,4 @@ body{
     font-family: var(--roboto);
     color: var(--dark);
     font-weight: 400;
-    
 }

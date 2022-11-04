@@ -1,29 +1,14 @@
-:root{
-    --rubik: 'Rubik', sans-serif;
-    --roboto: 'Roboto', sans-serif;
-    --white: #ffffff;
-    --light: #f8f9fa;
-    --gray: #6c757d;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --dark: #343a40; 
-}
-
-.about_me{
-    display: flex;
-}
-
 .about_me-container{
     display: flex;
     text-align: center;
     align-items: center;
+    justify-content: space-between;
 }
 
 .about_me-one{
     width: 40%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
 }
 
 .about_me-img{
@@ -31,14 +16,21 @@
 }
 
 .about_me-two{
-    width: 60%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .about_me-title{
-    text-align: center;
+    font-family: var(--rubik);
     font-size: 40px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 30px;
 }
 
 .about_me-paragraph{
-
+    line-height: 25px;
+    text-align: left;
 }
