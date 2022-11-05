@@ -2,16 +2,35 @@
 
 /* header */
 header{
-    height: 10vh;
+    height: 80px;
     max-width: 1200px;
     margin: 0 auto;
+    position: absolute;
+    top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: 1;
+    background-color: #f3f3ff;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header.active{
+    position: fixed;
+    top: 0;
+    max-width: 100%;
 }
 
 .container_header{
+    max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 0;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .logo_header{
@@ -35,7 +54,7 @@ header nav{
 /* principal */
 
 .principal{
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
