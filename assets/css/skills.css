@@ -1,21 +1,28 @@
+.skills{
+    background-color: #F1F3F4;
+}
+
 .skills_title{
     font-family: var(--rubik);
     font-size: 40px;
     color: #000;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
 .skills_container{
+    max-width: 1200px;
     margin-top: 20px;
     list-style: none;
     display: flex;
     align-items: center;
-    justify-self: center;
-    
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 80px;
 }
 
 .skills_container img{
-    width: 50px;
+    width: 120px;
 }
