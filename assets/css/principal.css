@@ -12,7 +12,7 @@ header{
     transition: all 0.3s ease 0s;
     width: 100%;
     z-index: 1;
-    background-color: #f3f3ff;
+    background-color: var(--ligth_purple);
     left: 50%;
     transform: translateX(-50%);
 }
@@ -129,6 +129,12 @@ header nav{
     border-style: solid;
     border-color:var(--purple);
     color: #000;
+    cursor: pointer;
+}
+
+.download_button:hover{
+    color: var(--light);
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
 }
 
 .principal_two{
