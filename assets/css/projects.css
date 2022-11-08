@@ -1,0 +1,12 @@
+.projects{
+    background-color: var(--lila);
+}
+
+.projects h1{
+    font-family: var(--rubik);
+    font-size: 40px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-align: center;
+}

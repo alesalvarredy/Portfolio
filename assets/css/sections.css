@@ -1,6 +1,7 @@
 .about_me, 
 .skills,
-.studies{
+.studies,
+.projects{
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
@@ -10,6 +11,7 @@
     align-items: center;
 }
 
-.skills{
+.skills,
+.projects{
     max-width: none;
 }
