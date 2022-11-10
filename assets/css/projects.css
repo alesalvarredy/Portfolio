@@ -2,8 +2,8 @@
 .projects_title{
     font-family: var(--rubik);
     font-size: 40px;
-    color: #000;
-    font-weight: 500;
+    color: var(--black);
+    font-weight: 700;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -30,7 +30,7 @@
     height: 450px;
     background-color: var(--lila);
     border-radius: 20px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: rgb(160 174 192 / 60%) 0px 4px 6px;
 }
 
 .container_title{
@@ -69,10 +69,11 @@
     font-size: 15px;
     border: none;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 .buttons:hover{
-    color: var(--purple);
+    background: var(--purple);
 }
 
 .container_description{

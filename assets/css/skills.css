@@ -1,12 +1,9 @@
-.skills{
-    background-color: var(--lila);
-}
 
 .skills_title{
     font-family: var(--rubik);
     font-size: 40px;
-    color: #000;
-    font-weight: 500;
+    color: var(--black);
+    font-weight: 700;
     margin-bottom: 50px;
     text-align: center;
 }
