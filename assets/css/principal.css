@@ -51,6 +51,18 @@ header nav{
     margin: 0 10px;
 }
 
+.menuItems::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: var(--indigo);
+    transition: width 0.3s;
+  }
+  
+  .menuItems:hover::after {
+    width: 100%;
+  }
 /* principal */
 
 .principal{

@@ -25,4 +25,9 @@
 
 .skills_container img{
     width: 100px;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.skills_container img:hover{
+    transform: scale(1.1);
 }

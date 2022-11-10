@@ -21,4 +21,5 @@ body{
     font-family: var(--roboto);
     color: var(--dark);
     font-weight: 400;
+    background: url(/assets/images/bg-body.png) no-repeat;
 }
