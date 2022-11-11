@@ -72,6 +72,11 @@
 .contact_card_items ul li a{
     text-decoration: none;
     color: var(--black);
+    transition: all 0.3s ease;
+}
+
+.contact_card_items ul li a:hover{
+    color: var(--purple);
 }
 
 .container_contact_button{

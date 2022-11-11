@@ -53,11 +53,11 @@
                     <div class="principal_one_titles">
                         <h3 class="title_three">Hola!</h3>
                         <h1 class="title_one"> Soy Alejandra Salvarredy</h1>
-                        <h5 class="title_five"> Desarrolladora Web</h5>
+                        <span class="title_five"></span>
                     </div>
                     <div class="principal_one_buttons">
-                        <button class="contact_me_button">Contactame</button>
-                        <button class="download_button">Descargar CV</button>
+                        <a href="#contact" class="contact_me_button" >Contactame</a>
+                        <a class="download_button">Descargar CV</a>
                     </div>
                 </div>
 
@@ -183,10 +183,31 @@
 
                     </div>
 
-                    <!-- <div class="project_card">
-                        <img src="assets/images/cover-projects-portfolio-Ale-ahorcado.png" alt="Imagen Proyecto Portfolio">
-                        <h1>Portfolio</h1>
-                    </div> -->
+                    <div class="project_card">
+                        <div class="container_title">
+                            <h1>Portfolio</h1>
+                        </div>
+                        <img class="project_card_img" src="assets/images/cover-projects-portfolio-Ale-encriptador.png" alt="Imagen Proyecto Encriptador">
+                        <div class="container_buttons">
+                            <a href="https://github.com/alesalvarredy/encriptadorAlura" target="_blank" class="buttons"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="https://alesalvarredy.github.io/encriptadorAlura/" target="_blank" class="buttons"><i class="fa-solid fa-rocket"></i> Demo</a>
+                        </div>
+
+                         <div class="container_description">
+                            <p>Codificador de texto, el usuario puede escribir un texto y el codificador lo codifica con unas llaves ya programadas. Tambien puede decodificar el texto.</p>
+                        </div>
+
+                        <div class="container_tecnologies">
+                            <ul>
+                                <li><img src="assets/images/logo-html-black.png" alt="HTML Logo"></li>
+                                <li><img src="assets/images/logo-css-black.png" alt="CSS Logo"></li>
+                                <li><img src="assets/images/logo-js-black.png" alt="JS Logo"></li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
 
                 </div>
         
@@ -251,7 +272,16 @@
         
         </footer>
 
+        <script src="assets/js/typed.js"></script>
         <script src="assets/js/script.js"></script>
+        <script>
+            var typed = new Typed('.title_five', {
+                strings: ['Desarrolladora Web'],
+                typeSpeed: 100,
+                backSpeed: 100,
+                loop: true
+            });
+        </script>
 </body>
 
 </html>
