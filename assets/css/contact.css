@@ -1,0 +1,101 @@
+
+.contact_title h1{
+    font-family: var(--rubik);
+    font-size: 40px;
+    color: var(--black);
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contact_card{
+    width: 1135px;
+    height: 445px;
+    background-color: var(--lila);
+    border-radius: 20px;
+    box-shadow: rgb(160 174 192 / 60%) 0px 4px 6px;
+    padding: 35px;
+}
+
+.container_contact_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.contact_card_left{
+    height: 100%;
+    background-color: var(--light);
+    border-radius: 20px;
+    box-shadow: rgb(160 174 192 / 60%) 0px 4px 6px;
+}
+
+.contact_card_right, .contact_card_left{
+    width: 45%;
+}
+
+.card_items_container{
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact_card_items{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+    
+}
+
+.icon_box{
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: var(--purple);
+    color: var(--light);
+    border-radius: 5px;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.card_item_title{
+    font-size: 14px;
+    margin-bottom: 5px;
+    opacity: 0.5;
+}
+
+.contact_card_items ul li a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.container_contact_button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_button{
+    padding: 20px 40px;
+    background-color: var(--purple);
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--light);
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.contact_button:hover{
+    opacity: 0.8;
+}
+
+.contact_card_right img{
+    width: 100%;
+}
