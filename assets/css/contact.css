@@ -72,6 +72,7 @@
 .contact_card_items ul li a{
     text-decoration: none;
     color: var(--black);
+    font-weight: 400;
     transition: all 0.3s ease;
 }
 
