@@ -1,0 +1,22 @@
+footer{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 35px;
+font-weight: 400;
+}
+
+footer i{
+    color: var(--indigo);
+    font-weight: 900;
+}
+
+footer a{
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--dark);
+}
+
+footer a:hover{
+    color: var(--indigo);
+}
