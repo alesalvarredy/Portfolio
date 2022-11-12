@@ -2,6 +2,9 @@
 
 /* header */
 header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 80px;
     max-width: 1200px;
     margin: 0 auto;
@@ -28,7 +31,6 @@ header.active{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 0;
     width: 90%;
     margin: 0 auto;
 }
@@ -63,6 +65,11 @@ header nav{
   .menuItems:hover::after {
     width: 100%;
   }
+
+  .nav_burguer{
+    display: none;
+  }
+
 /* principal */
 
 .principal{
@@ -72,12 +79,14 @@ header nav{
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 35px;
     
 }
 
 .principal_one{
     display: flex;
     flex-direction: column;
+    width: 50%;
 
 }
 
@@ -158,9 +167,10 @@ header nav{
 
 .principal_two{
     display: flex;
+    width: 50%;
 }
 
 .image_hero{
-    width: 600px;
+    width: 100%;
 }
 
