@@ -5,12 +5,14 @@ const navBurguerLine2 = document.querySelector(".nav_burguer-line-2");
 const navBurguerLine3 = document.querySelector(".nav_burguer-line-3");
 const itemContainer = document.querySelector(".items_container");
 const menuItems = document.querySelectorAll(".menuItems");
+const backgroundBlur = document.querySelector(".background_blur");
 
 const showNavMenu = () => {
     navBurguerLine1.classList.toggle("active");
     navBurguerLine2.classList.toggle("active");
     navBurguerLine3.classList.toggle("active");
     itemContainer.classList.toggle("active");
+    backgroundBlur.classList.toggle("active");
 }
 
 navBurguer.addEventListener("click", () => {

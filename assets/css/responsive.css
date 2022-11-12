@@ -20,6 +20,9 @@ header{
 }
 
 @media screen and (max-width: 980px) {
+    body{
+        background: url(/assets/images/bg-body.png) no-repeat center;
+    }
 
     header{
         height: 70px;
@@ -88,4 +91,95 @@ header{
     font-size: 16px;
   }
 
+  .principal{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .principal_one{
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .principal_two{
+    display: none;
+  }
+
+  .about_me-container{
+    flex-direction: column-reverse;
+  }
+
+  .about_me-one{
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+   .about_me-img {
+    width: 300px;
+    }
+
+    .about_me-two {
+        width: 100%;
+    }
+
+    .about_me-paragraph {
+        text-align: justify;
+    }
+
+    .contact_card_left{
+        width: 100%;
+    }
+
+    .contact_card_right{
+        display: none;
+    }
+
+  .background_blur{
+    visibility: hidden;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f9fa62;
+    backdrop-filter: blur(6px);
+  }
+
+  .background_blur.active{
+    visibility: visible;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .project_card {
+        width: 330px;
+        height: 350px;
+        padding: 12px;
+    }
+
+    .container_title {
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .project_card_img {
+        width: 100%;
+    }
+    
+    .container_buttons {
+        margin-top: 25px;
+        width: 95%;
+    }
+
+    .buttons{
+        padding: 12px 40px;
+    }
+
+    .contact_card{
+        padding: 20px;
+    }
 }
