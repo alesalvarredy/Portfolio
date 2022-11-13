@@ -203,9 +203,9 @@ header{
         margin-top: 25px;
         width: 95%;
     }
-
-    .buttons{
-        padding: 12px 30px;
+ 
+    .buttons {
+        padding: 12px 36px;
     }
 
     .container_description {
@@ -276,7 +276,65 @@ header{
         height: 330px;
     }
 
+    .about_me-img{
+        width: 250px;
+    }
+
     .icon_box{
         display: none;
     }
+
+    .buttons{
+        padding: 12px 30px;
+    }
+    
+    }
+
+    @media screen and (max-width: 280px) {
+
+        .about_me, 
+        .skills,
+        .studies,
+        .projects{
+            padding: 60px 10px;
+        }
+        .contact_me_button {
+            padding: 17px 11px;
+            font-size: 12px;
+        }
+
+        .title_three {
+            font-size: 30px;
+        }
+
+        .title_one {
+            font-size: 35px;
+        }
+
+        .title_five {
+            font-size: 20px;
+        }
+
+        .download_button {
+            padding: 17px 7px;
+            font-size: 12px;
+        }
+
+        .container_title h1 {
+            font-size: 20px;
+        }
+
+        .container_buttons {
+            margin-top: 47px;
+        }
+
+        .buttons {
+            padding: 12px 20px;
+            font-size: 13px;
+        }
+
+        .nav_burguer {
+            z-index: 4;
+        }
+        
     }
