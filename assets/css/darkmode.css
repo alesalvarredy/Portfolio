@@ -1,0 +1,63 @@
+:root{
+    --dark: #171923;
+    --darkgray: #2D3748;
+    --white: #ffffff;
+    --light: #f8f9fa;
+    --gray: #7d858c;
+    --black: #21232E;
+}
+
+body.dark{
+    background-color: var(--dark);
+}
+
+body.dark header,
+body.dark .card,
+body.dark .project_card,
+body.dark .contact_card{
+    background-color: var(--darkgray);
+}
+
+body.dark .menuItems, 
+body.dark .fa-sun,
+body.dark .title_three,
+body.dark .title_one,
+body.dark .download_button,
+body.dark .contact_me_button:hover,
+body.dark .typed-cursor,
+body.dark .about_me-title,
+body.dark .skills_title,
+body.dark .studies_title,
+body.dark .cards_text h1,
+body.dark .projects_title,
+body.dark .container_title h1,
+body.dark .contact_title h1,
+body.dark .contact_card_items,
+body.dark .contact_card_items ul li a,
+body.dark footer p,
+body.dark footer p a{
+    color: var(--light);
+}
+
+body.dark .about_me-paragraph,
+body.dark .cards_text{
+    color: var(--gray);
+}
+
+body.dark .container_title{
+    background-color: var(--black);
+}
+
+body.dark .project_card,
+body.dark .contact_card{
+    box-shadow: #2d37488c 0px 4px 6px;
+}
+
+body.dark .contact_card_left{
+    background-color: #21232E;
+    box-shadow: #2d37488c 0px 4px 6px;
+}
+
+
+
+

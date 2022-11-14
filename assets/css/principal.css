@@ -2,6 +2,7 @@
 
 /* header */
 header{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,6 +42,7 @@ header.active{
 
 header nav{
     display: flex;
+    margin-right: 20px;
 }
 
 .menuItems{
@@ -69,6 +71,49 @@ header nav{
   .nav_burguer{
     display: none;
   }
+
+  .dark_mode_button{
+    width: 40px;
+    height: 40px;
+    background-color: #6e42c123;
+    border-radius: 5px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }
+
+    .dark_mode_button:hover{
+        filter: brightness(0.5);
+    }
+
+    .fa-moon{
+        opacity: 1;
+        transform: scale(1);
+        transition: all 0.3s ease;
+        position: absolute;
+    }
+
+    .fa-moon.active{
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    .fa-sun{
+        opacity: 0;
+        transform: scale(0);
+        transition: all 0.3s ease;
+        position: absolute;
+    }
+
+    .fa-sun.active{
+        opacity: 1;
+        transform: scale(1);
+    }
 
 /* principal */
 
