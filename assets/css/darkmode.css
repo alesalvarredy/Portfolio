@@ -15,7 +15,8 @@ body.dark{
 body.dark header,
 body.dark .card,
 body.dark .project_card,
-body.dark .contact_card{
+body.dark .contact_card,
+body.dark .items_container{
     background-color: var(--darkgray);
 }
 
