@@ -60,6 +60,12 @@ body.dark .contact_card_left{
     box-shadow: #2d37488c 0px 4px 6px;
 }
 
+@media screen and (max-width: 480px) {
 
+    body.dark{
+        background: url(/assets/images/bg-body-dark.png) no-repeat top;
+        background-color: var(--dark);
+    }
 
+}
 
