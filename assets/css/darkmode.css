@@ -8,6 +8,7 @@
 }
 
 body.dark{
+    background: url(/assets/images/bg-body-dark.png) no-repeat;
     background-color: var(--dark);
 }
 
